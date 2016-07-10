@@ -1,0 +1,653 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Медовый рынок</title>
+	<link rel="stylesheet" href="css/reset.min.css">
+	<link rel="stylesheet/less" href="css/style.less">
+	<link rel="stylesheet" type="text/css" href="http://xn--b1adcsfhlfds3jc.xn--p1ai/template/css/assembling-min.css">
+
+	<!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<link rel="stylesheet" href="css/ie.css">
+	<![endif]-->
+</head>
+<body>
+<header class="top">
+	<div class="logo">
+		<div class="logo-img"><img src="img/logo.png" alt="Logo Image"></div>
+		<h1 class="logo-title">Медовый рынок</h1>
+		<p class="logo-description">Российской Федерации</p>
+	</div>
+	<nav class="top-navigation">
+		<ul>
+			<li><a href="#">О сайте</a></li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
+	</nav>
+	<div class="user-navigation">
+		<div class="user-avatar">
+			<img src="img/avatar.png" alt="User Avatar">
+		</div>
+		<div class="user-info">
+			<p class="user-name">Константин Константинов</p>
+		</div>
+	</div>
+</header>
+
+<div class="page-title">
+	<div class="container">
+		<h2 class="page-name">Личный кабинет продавца</h2>
+	</div>
+</div>
+
+<div class="page-content">
+	<div class="container">
+		<div class="page-navigation">
+			<ul>
+				<li><a href="#">Визитка</a></li>
+				<li><a href="#">Буклет</a></li>
+				<li class="active"><a href="#">Прайс</a></li>
+			</ul>
+		</div>
+		<div class="page-data">
+			<div class="price-block">
+				<div class="price-head">
+					<p class="price-title">Я продаю</p>
+					<a href="#" class="add-product">+ продукт</a>
+				</div>
+
+				<div class="price-product new-product">
+					<div class="edit-form new-form">
+						<div class="block">
+							<p class="title">Наличие товара</p>
+							<div class="data">
+								<p class="preorder-not">предзаказ</p>
+								<div class="preorder-check contact-checkbox-2mode"><input type="checkbox" id="contact-checkbox-preorder0" name="preorder" value="preorder"><label for="contact-checkbox-preorder0"></label></div>
+								<p class="preorder-yes active-order">в наличии</p>
+							</div>
+						</div>
+						<div class="block">
+							<p class="title">Название</p>
+							<div class="data">
+								<input type="text" class="product-name-edit">
+								<p class="arrow">&#8594;</p>
+								<select class="product-category">
+									<option>Категория</option>
+									<option>Категория 2</option>
+								</select>
+							</div>
+						</div>
+						<div class="block">
+							<p class="title">Описание и/или состав</p>
+							<div class="data">
+								<div class="description-edit">
+									<div class="options">
+										<select class="date">
+											<option>авг 2016</option>
+											<option>сен 2016</option>
+										</select>
+										<p class="tara-new">тара новая</p>
+										<div class="tara-check contact-checkbox-2mode"><input type="checkbox" id="contact-checkbox-tara0" name="tara" value="tara"><label for="contact-checkbox-tara0"></label></div>
+										<p class="tara-old active-order">Б/У</p>
+									</div>
+									<textarea class="input-edit"></textarea>
+								</div>
+							</div>
+						</div>
+						<div class="block">
+							<p class="title">Фото</p>
+							<div class="data">
+								<div class="file-load">
+									<input type="file" id="file-load" name="business" value="ip">
+									<label for="file-load">
+										<div class="load-image">
+											<p class="load-image-title">Загрузить файл</p>
+											<p class="load-image-addition">Перетащить сюда или <span>выбрать</span></p>
+										</div>
+									</label>
+								</div>
+								<div class="loaded-images price-loaded-images">
+									<div class="loaded">
+										<img src="img/loaded.png" alt="Loaded Image">
+									</div>
+									<div class="loaded">
+										<img src="img/loaded.png" alt="Loaded Image">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="block">
+							<p class="title">Цена</p>
+							<div class="data">
+								<input type="text" class="price-edit">
+								<select class="price-edit-select">
+									<option>кг</option>
+									<option>шт</option>
+								</select>
+								<p class="addition-preorder">Цена по предзаказу</p>
+								<input type="text" class="price-preorder-edit">
+								<div class="price-edit-select-double">кг</div>
+							</div>
+						</div>
+						<div class="block">
+							<input type="submit" class="add-info" value="Добавить">
+						</div>
+					</div>
+				</div>
+
+				<div class="price-category">
+					<p class="category-name">Мед</p>
+					<p class="category-number">5</p>
+				</div>
+				<div class="category-container">
+					<div class="price-product">
+						<div class="product-img">
+							<img src="img/product1.jpg" alt="product img">
+						</div>
+						<div class="product-content">
+							<div class="product-head">
+								<p class="product-name">Мед гречишный</p>
+								<p class="product-date">июнь 16</p>
+								<div class="product-value">
+									<p class="measurement"><span>P</span>/кг</p>
+									<p class="new-value">2 300</p>
+									<p class="old-value">2 300</p>
+								</div>
+							</div>
+							<div class="product-addition">
+								<p class="description">Собран в горном алтае. Имеется примесь воска. Сертификат пришлю вместе с медом</p>
+								<p class="preorder">по предзаказу</p>
+								<p class="when">Сегодня</p>
+							</div>
+						</div>
+						<div class="edit-form">
+							<div class="block">
+								<p class="title">Наличие товара</p>
+								<div class="data">
+									<p class="preorder-not">предзаказ</p>
+									<div class="preorder-check contact-checkbox-2mode"><input type="checkbox" id="contact-checkbox-preorder1" name="preorder" value="preorder"><label for="contact-checkbox-preorder1"></label></div>
+									<p class="preorder-yes active-order">в наличии</p>
+								</div>
+							</div>
+							<div class="block">
+								<p class="title">Название</p>
+								<div class="data">
+									<input type="text" class="product-name-edit">
+									<p class="arrow">&#8594;</p>
+									<select class="product-category">
+										<option>Категория</option>
+										<option>Категория 2</option>
+									</select>
+								</div>
+							</div>
+							<div class="block">
+								<p class="title">Описание и/или состав</p>
+								<div class="data">
+									<div class="description-edit">
+										<div class="options">
+											<select class="date">
+												<option>авг 2016</option>
+												<option>сен 2016</option>
+											</select>
+											<p class="tara-new">тара новая</p>
+											<div class="tara-check contact-checkbox-2mode"><input type="checkbox" id="contact-checkbox-tara1" name="tara" value="tara"><label for="contact-checkbox-tara1"></label></div>
+											<p class="tara-old active-order">Б/У</p>
+										</div>
+										<textarea class="input-edit"></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="block">
+								<p class="title">Фото</p>
+								<div class="data">
+									<div class="file-load">
+										<input type="file" id="file-load" name="business" value="ip">
+										<label for="file-load">
+											<div class="load-image">
+												<p class="load-image-title">Загрузить файл</p>
+												<p class="load-image-addition">Перетащить сюда или <span>выбрать</span></p>
+											</div>
+										</label>
+									</div>
+									<div class="loaded-images price-loaded-images">
+										<div class="loaded">
+											<img src="img/loaded.png" alt="Loaded Image">
+										</div>
+										<div class="loaded">
+											<img src="img/loaded.png" alt="Loaded Image">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="block">
+								<p class="title">Цена</p>
+								<div class="data">
+									<input type="text" class="price-edit">
+									<select class="price-edit-select">
+										<option>кг</option>
+										<option>шт</option>
+									</select>
+									<p class="addition-preorder">Цена по предзаказу</p>
+									<input type="text" class="price-preorder-edit">
+									<div class="price-edit-select-double">кг</div>
+								</div>
+							</div>
+							<div class="block">
+								<input type="submit" class="add-info" value="Добавить">
+							</div>
+						</div>
+					</div>
+					<div class="price-product">
+						<div class="product-img">
+							<img src="img/product1.jpg" alt="product img">
+						</div>
+						<div class="product-content">
+							<div class="product-head">
+								<p class="product-name">Мед гречишный</p>
+								<p class="product-date">июнь 16</p>
+								<div class="product-value">
+									<p class="measurement"><span>P</span>/кг</p>
+									<p class="new-value">2 300</p>
+									<p class="old-value">2 300</p>
+								</div>
+							</div>
+							<div class="product-addition">
+								<p class="description">Собран в горном алтае. Имеется примесь воска. Сертификат пришлю вместе с медом</p>
+								<p class="preorder">по предзаказу</p>
+								<p class="when">Сегодня</p>
+							</div>
+						</div>
+						<div class="edit-form">
+							<div class="block">
+								<p class="title">Наличие товара</p>
+								<div class="data">
+									<p class="preorder-not">предзаказ</p>
+									<div class="preorder-check contact-checkbox-2mode"><input type="checkbox" id="contact-checkbox-preorder2" name="preorder" value="preorder"><label for="contact-checkbox-preorder2"></label></div>
+									<p class="preorder-yes active-order">в наличии</p>
+								</div>
+							</div>
+							<div class="block">
+								<p class="title">Название</p>
+								<div class="data">
+									<input type="text" class="product-name-edit">
+									<p class="arrow">&#8594;</p>
+									<select class="product-category">
+										<option>Категория</option>
+										<option>Категория 2</option>
+									</select>
+								</div>
+							</div>
+							<div class="block">
+								<p class="title">Описание и/или состав</p>
+								<div class="data">
+									<div class="description-edit">
+										<div class="options">
+											<select class="date">
+												<option>авг 2016</option>
+												<option>сен 2016</option>
+											</select>
+											<p class="tara-new">тара новая</p>
+											<div class="tara-check contact-checkbox-2mode"><input type="checkbox" id="contact-checkbox-tara2" name="tara" value="tara"><label for="contact-checkbox-tara2"></label></div>
+											<p class="tara-old active-order">Б/У</p>
+										</div>
+										<textarea class="input-edit"></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="block">
+								<p class="title">Фото</p>
+								<div class="data">
+									<div class="file-load">
+										<input type="file" id="file-load" name="business" value="ip">
+										<label for="file-load">
+											<div class="load-image">
+												<p class="load-image-title">Загрузить файл</p>
+												<p class="load-image-addition">Перетащить сюда или <span>выбрать</span></p>
+											</div>
+										</label>
+									</div>
+									<div class="loaded-images price-loaded-images">
+										<div class="loaded">
+											<img src="img/loaded.png" alt="Loaded Image">
+										</div>
+										<div class="loaded">
+											<img src="img/loaded.png" alt="Loaded Image">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="block">
+								<p class="title">Цена</p>
+								<div class="data">
+									<input type="text" class="price-edit">
+									<select class="price-edit-select">
+										<option>кг</option>
+										<option>шт</option>
+									</select>
+									<p class="addition-preorder">Цена по предзаказу</p>
+									<input type="text" class="price-preorder-edit">
+									<div class="price-edit-select-double">кг</div>
+								</div>
+							</div>
+							<div class="block">
+								<input type="submit" class="add-info" value="Добавить">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="price-category">
+					<p class="category-name">Мед</p>
+					<p class="category-number">5</p>
+				</div>
+				<div class="category-container">
+					<div class="price-product">
+						<div class="product-img">
+							<img src="img/product1.jpg" alt="product img">
+						</div>
+						<div class="product-content">
+							<div class="product-head">
+								<p class="product-name">Мед гречишный</p>
+								<p class="product-date">июнь 16</p>
+								<div class="product-value">
+									<p class="measurement"><span>P</span>/кг</p>
+									<p class="new-value">2 300</p>
+									<p class="old-value">2 300</p>
+								</div>
+							</div>
+							<div class="product-addition">
+								<p class="description">Собран в горном алтае. Имеется примесь воска. Сертификат пришлю вместе с медом</p>
+								<p class="preorder">по предзаказу</p>
+								<p class="when">Сегодня</p>
+							</div>
+						</div>
+						<div class="edit-form">
+							<div class="block">
+								<p class="title">Наличие товара</p>
+								<div class="data">
+									<p class="preorder-not">предзаказ</p>
+									<div class="preorder-check contact-checkbox-2mode"><input type="checkbox" id="contact-checkbox-preorder3" name="preorder" value="preorder"><label for="contact-checkbox-preorder3"></label></div>
+									<p class="preorder-yes active-order">в наличии</p>
+								</div>
+							</div>
+							<div class="block">
+								<p class="title">Название</p>
+								<div class="data">
+									<input type="text" class="product-name-edit">
+									<p class="arrow">&#8594;</p>
+									<select class="product-category">
+										<option>Категория</option>
+										<option>Категория 2</option>
+									</select>
+								</div>
+							</div>
+							<div class="block">
+								<p class="title">Описание и/или состав</p>
+								<div class="data">
+									<div class="description-edit">
+										<div class="options">
+											<select class="date">
+												<option>авг 2016</option>
+												<option>сен 2016</option>
+											</select>
+											<p class="tara-new">тара новая</p>
+											<div class="tara-check contact-checkbox-2mode"><input type="checkbox" id="contact-checkbox-tara3" name="tara" value="tara"><label for="contact-checkbox-tara3"></label></div>
+											<p class="tara-old active-order">Б/У</p>
+										</div>
+										<textarea class="input-edit"></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="block">
+								<p class="title">Фото</p>
+								<div class="data">
+									<div class="file-load">
+										<input type="file" id="file-load" name="business" value="ip">
+										<label for="file-load">
+											<div class="load-image">
+												<p class="load-image-title">Загрузить файл</p>
+												<p class="load-image-addition">Перетащить сюда или <span>выбрать</span></p>
+											</div>
+										</label>
+									</div>
+									<div class="loaded-images price-loaded-images">
+										<div class="loaded">
+											<img src="img/loaded.png" alt="Loaded Image">
+										</div>
+										<div class="loaded">
+											<img src="img/loaded.png" alt="Loaded Image">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="block">
+								<p class="title">Цена</p>
+								<div class="data">
+									<input type="text" class="price-edit">
+									<select class="price-edit-select">
+										<option>кг</option>
+										<option>шт</option>
+									</select>
+									<p class="addition-preorder">Цена по предзаказу</p>
+									<input type="text" class="price-preorder-edit">
+									<div class="price-edit-select-double">кг</div>
+								</div>
+							</div>
+							<div class="block">
+								<input type="submit" class="add-info" value="Добавить">
+							</div>
+						</div>
+					</div>
+					<div class="price-product">
+						<div class="product-img">
+							<img src="img/product1.jpg" alt="product img">
+						</div>
+						<div class="product-content">
+							<div class="product-head">
+								<p class="product-name">Мед гречишный</p>
+								<p class="product-date">июнь 16</p>
+								<div class="product-value">
+									<p class="measurement"><span>P</span>/кг</p>
+									<p class="new-value">2 300</p>
+									<p class="old-value">2 300</p>
+								</div>
+							</div>
+							<div class="product-addition">
+								<p class="description">Собран в горном алтае. Имеется примесь воска. Сертификат пришлю вместе с медом</p>
+								<p class="preorder">по предзаказу</p>
+								<p class="when">Сегодня</p>
+							</div>
+						</div>
+						<div class="edit-form">
+							<div class="block">
+								<p class="title">Наличие товара</p>
+								<div class="data">
+									<p class="preorder-not">предзаказ</p>
+									<div class="preorder-check contact-checkbox-2mode"><input type="checkbox" id="contact-checkbox-preorder4" name="preorder" value="preorder"><label for="contact-checkbox-preorder4"></label></div>
+									<p class="preorder-yes active-order">в наличии</p>
+								</div>
+							</div>
+							<div class="block">
+								<p class="title">Название</p>
+								<div class="data">
+									<input type="text" class="product-name-edit">
+									<p class="arrow">&#8594;</p>
+									<select class="product-category">
+										<option>Категория</option>
+										<option>Категория 2</option>
+									</select>
+								</div>
+							</div>
+							<div class="block">
+								<p class="title">Описание и/или состав</p>
+								<div class="data">
+									<div class="description-edit">
+										<div class="options">
+											<select class="date">
+												<option>авг 2016</option>
+												<option>сен 2016</option>
+											</select>
+											<p class="tara-new">тара новая</p>
+											<div class="tara-check contact-checkbox-2mode"><input type="checkbox" id="contact-checkbox-tara4" name="tara" value="tara"><label for="contact-checkbox-tara4"></label></div>
+											<p class="tara-old active-order">Б/У</p>
+										</div>
+										<textarea class="input-edit"></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="block">
+								<p class="title">Фото</p>
+								<div class="data">
+									<div class="file-load">
+										<input type="file" id="file-load" name="business" value="ip">
+										<label for="file-load">
+											<div class="load-image">
+												<p class="load-image-title">Загрузить файл</p>
+												<p class="load-image-addition">Перетащить сюда или <span>выбрать</span></p>
+											</div>
+										</label>
+									</div>
+									<div class="loaded-images price-loaded-images">
+										<div class="loaded">
+											<img src="img/loaded.png" alt="Loaded Image">
+										</div>
+										<div class="loaded">
+											<img src="img/loaded.png" alt="Loaded Image">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="block">
+								<p class="title">Цена</p>
+								<div class="data">
+									<input type="text" class="price-edit">
+									<select class="price-edit-select">
+										<option>кг</option>
+										<option>шт</option>
+									</select>
+									<p class="addition-preorder">Цена по предзаказу</p>
+									<input type="text" class="price-preorder-edit">
+									<div class="price-edit-select-double">кг</div>
+								</div>
+							</div>
+							<div class="block">
+								<input type="submit" class="add-info" value="Добавить">
+							</div>
+						</div>
+					</div>
+
+					<div class="price-product">
+						<div class="product-img">
+							<img src="img/product1.jpg" alt="product img">
+						</div>
+						<div class="product-content">
+							<div class="product-head">
+								<p class="product-name">Мед гречишный</p>
+								<p class="product-date">июнь 16</p>
+								<div class="product-value">
+									<p class="measurement"><span>P</span>/кг</p>
+									<p class="new-value">2 300</p>
+									<p class="old-value">2 300</p>
+								</div>
+							</div>
+							<div class="product-addition">
+								<p class="description">Собран в горном алтае. Имеется примесь воска. Сертификат пришлю вместе с медом</p>
+								<p class="preorder">по предзаказу</p>
+								<p class="when">Сегодня</p>
+							</div>
+						</div>
+						<div class="edit-form">
+							<div class="block">
+								<p class="title">Наличие товара</p>
+								<div class="data">
+									<p class="preorder-not">предзаказ</p>
+									<div class="preorder-check contact-checkbox-2mode"><input type="checkbox" id="contact-checkbox-preorder5" name="preorder" value="preorder"><label for="contact-checkbox-preorder5"></label></div>
+									<p class="preorder-yes active-order">в наличии</p>
+								</div>
+							</div>
+							<div class="block">
+								<p class="title">Название</p>
+								<div class="data">
+									<input type="text" class="product-name-edit">
+									<p class="arrow">&#8594;</p>
+									<select class="product-category">
+										<option>Категория</option>
+										<option>Категория 2</option>
+									</select>
+								</div>
+							</div>
+							<div class="block">
+								<p class="title">Описание и/или состав</p>
+								<div class="data">
+									<div class="description-edit">
+										<div class="options">
+											<select class="date">
+												<option>авг 2016</option>
+												<option>сен 2016</option>
+											</select>
+											<p class="tara-new">тара новая</p>
+											<div class="tara-check contact-checkbox-2mode"><input type="checkbox" id="contact-checkbox-tara5" name="tara" value="tara"><label for="contact-checkbox-tara5"></label></div>
+											<p class="tara-old active-order">Б/У</p>
+										</div>
+										<textarea class="input-edit"></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="block">
+								<p class="title">Фото</p>
+								<div class="data">
+									<div class="file-load">
+										<input type="file" id="file-load" name="business" value="ip">
+										<label for="file-load">
+											<div class="load-image">
+												<p class="load-image-title">Загрузить файл</p>
+												<p class="load-image-addition">Перетащить сюда или <span>выбрать</span></p>
+											</div>
+										</label>
+									</div>
+									<div class="loaded-images price-loaded-images">
+										<div class="loaded">
+											<img src="img/loaded.png" alt="Loaded Image">
+										</div>
+										<div class="loaded">
+											<img src="img/loaded.png" alt="Loaded Image">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="block">
+								<p class="title">Цена</p>
+								<div class="data">
+									<input type="text" class="price-edit">
+									<select class="price-edit-select">
+										<option>кг</option>
+										<option>шт</option>
+									</select>
+									<p class="addition-preorder">Цена по предзаказу</p>
+									<input type="text" class="price-preorder-edit">
+									<div class="price-edit-select-double">кг</div>
+								</div>
+							</div>
+							<div class="block">
+								<input type="submit" class="add-info" value="Добавить">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="option">
+			<p class="title">Дополнительные опции</p>
+			<div class="contact-checkbox"><input type="checkbox" id="contact-checkbox-trace" name="trace" value="trace"><label for="contact-checkbox-trace"><span>Доставлю до ТК</span></label></div>
+		</div>
+	</div>
+</div>
+
+
+<script src="js/less.min.js"></script>
+<script src="js/jquery-1.12.2.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

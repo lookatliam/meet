@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Медовый рынок</title>
+	<link rel="stylesheet" href="css/reset.min.css">
+	<link rel="stylesheet/less" href="css/style.less">
+	<link rel="stylesheet" type="text/css" href="http://xn--b1adcsfhlfds3jc.xn--p1ai/template/css/assembling-min.css">
+
+	<!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<link rel="stylesheet" href="css/ie.css">
+	<![endif]-->
+</head>
+<body>
+
+<header class="top">
+	<div class="logo">
+		<div class="logo-img"><img src="img/logo.png" alt="Logo Image"></div>
+		<h1 class="logo-title">Медовый рынок</h1>
+		<p class="logo-description">Российской Федерации</p>
+	</div>
+
+	<nav class="top-navigation">
+		<ul>
+			<li><a href="#" class="active">Продают</a></li>
+			<li><a href="#">Покупают</a></li>
+		</ul>
+	</nav>
+	<div class="user-navigation">
+		<div class="user-avatar">
+			<img src="img/avatar.png" alt="User Avatar">
+		</div>
+		<div class="user-info">
+			<p class="user-name">Константин Константинов</p>
+		</div>
+	</div>
+	<a href="#" class="bookmark"></a>
+	<a href="#" class="visiting-cards-link">Визитница</a>
+	<a href="#" class="my-buy">Мои покупки</a>
+</header>
+
+<div class="list-container">
+	<div class="filters activeMargin">
+		<form action="#" method="POST">
+			<input type="button" class="add-med" value="Меда">
+			<div class="add-bee-container">
+				<input type="button" class="add-bee" value="Пчелопродукты">
+				<p class="add-bee-addition">Выбрано: <span>5</span></p>
+			</div>
+			<input type="button" class="add-other" value="другое">
+			<select class="add-season">
+				<option>Сезон</option>
+				<option>Март</option>
+				<option>Апрель</option>
+			</select>
+			<div class="add-price-container">
+				<input type="text" class="from" placeholder="от">
+				<input type="text" class="to" placeholder="до">
+			</div>
+			<input type="button" class="delivery-switch" value="доставка до ТК">
+			<input type="button" value=" " class="toggleSwitches">
+			<div class="add-filters-container">
+				<input type="submit" class="add-all-filters" value="Подобрать">
+				<input type="reset" class="reset-all-filters" value="Очистить фильтр">
+			</div>
+		</form>
+	</div>
+	<div class="switches">
+		<div class="one-or-company">
+			<input type="button" class="one active" value="Частники">
+			<input type="button" class="company" value="Компании">
+		</div>
+		<div class="preorder-or-instock">
+			<input type="button" class="preorder active" value="Предзаказ">
+			<input type="button" class="instock" value="В наличии">
+		</div>
+
+		<div class="add-region-container">
+			<input type="button" class="add-region" value="Область">
+			<!--<p class="add-region-addition"><span>5</span> областей</p>-->
+		</div>
+	</div>
+
+	<div class="windows-container">
+		<div class="windows">
+			<div class="onsale">
+				<div class="top-head">
+					<p class="title">В продаже</p>
+					<div class="onsale-filter">
+						<select class="filter-categories">
+							<option>все подряд</option>
+							<option>по рейтингу продавца</option>
+						</select>
+					</div>
+				</div>
+				<div class="inblock-onsale">
+					<div class="price-product">
+						<div class="product-img">
+							<div class="img">
+								<img src="img/product1.jpg" alt="product img">
+							</div>
+							<div class="bookmark"></div>
+						</div>
+						<div class="product-content">
+							<div class="product-head">
+								<p class="product-name">Мед гречишный</p>
+								<p class="product-date">июнь 16</p>
+								<div class="product-value">
+									<p class="measurement"><span class="rouble">a</span>/кг</p>
+									<p class="new-value">2 300</p>
+								</div>
+							</div>
+							<div class="product-addition">
+								<p class="description">Собран в горном алтае. Имеется примесь воска. Сертификат пришлю вместе с медом</p>
+								<p class="preorder">по предзаказу</p>
+								<a href="#" class="buyin">Купить товар</a>
+								<p class="when">Сегодня</p>
+								<p class="who">Русский мед, ООО</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="price-product">
+						<div class="product-img">
+							<div class="img">
+								<img src="img/product1.jpg" alt="product img">
+							</div>
+							<div class="bookmark active-bookmark"></div>
+						</div>
+						<div class="product-content">
+							<div class="product-head">
+								<p class="product-name">Мед гречишный</p>
+								<p class="product-date">июнь 16</p>
+								<div class="product-value">
+									<p class="measurement"><span class="rouble">a</span>/кг</p>
+									<p class="new-value">2 300</p>
+								</div>
+							</div>
+							<div class="product-addition">
+								<p class="description">Собран в горном алтае. Имеется примесь воска. Сертификат пришлю вместе с медом</p>
+								<p class="preorder">по предзаказу</p>
+								<a href="#" class="buyin">Купить товар</a>
+								<p class="when">Сегодня</p>
+								<p class="who">Русский мед, ООО</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="price-product">
+						<div class="product-img">
+							<div class="img">
+								<img src="img/product1.jpg" alt="product img">
+							</div>
+							<div class="bookmark"></div>
+						</div>
+						<div class="product-content">
+							<div class="product-head">
+								<p class="product-name">Мед гречишный</p>
+								<p class="product-date">июнь 16</p>
+								<div class="product-value">
+									<p class="measurement"><span class="rouble">a</span>/кг</p>
+									<p class="new-value">2 300</p>
+								</div>
+							</div>
+							<div class="product-addition">
+								<p class="description">Собран в горном алтае. Имеется примесь воска. Сертификат пришлю вместе с медом</p>
+								<p class="preorder">по предзаказу</p>
+								<a href="#" class="buyin">Купить товар</a>
+								<p class="when">Сегодня</p>
+								<p class="who">Русский мед, ООО</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="goods-container">
+				<div class="mini-menu">
+					<ul>
+						<li><a href="#">Визитка</a></li>
+						<li><a href="#">Прайс</a></li>
+						<li><a href="#">Буклет</a></li>
+					</ul>
+				</div>
+
+				<div class="goods">
+					<div class="title">
+						<p class="the-title">Товары продавца</p>
+						<input type="button" class="order" value="Купить товары">
+					</div>
+					<div class="inblock-price">
+						<div class="price-block">
+							<div class="price-category">
+								<p class="category-name">Мед</p>
+								<p class="category-number">5</p>
+							</div>
+							<div class="category-container">
+								<div class="price-product">
+									<div class="product-img">
+										<img src="img/avatar.png" alt="product img">
+										<div class="bookmark"></div>
+									</div>
+									<div class="product-content">
+										<div class="product-head">
+											<p class="product-name">Мед гречишный</p>
+											<p class="product-date">июнь 16</p>
+											<div class="product-value">
+												<p class="measurement"><span class="rouble">a</span>/кг</p>
+												<p class="new-value">2 300</p>
+												<p class="old-value">2 300</p>
+											</div>
+										</div>
+										<div class="product-addition">
+											<p class="description">Собран в горном алтае. Имеется примесь воска. Сертификат пришлю вместе с медом</p>
+											<p class="preorder">по предзаказу</p>
+										</div>
+									</div>
+									
+								</div>
+								<div class="price-product">
+									<div class="product-img">
+										<img src="img/avatar.png" alt="product img">
+										<div class="bookmark active-bookmark"></div>
+									</div>
+									<div class="product-content">
+										<div class="product-head">
+											<p class="product-name">Мед гречишный</p>
+											<p class="product-date">июнь 16</p>
+											<div class="product-value">
+												<p class="measurement"><span class="rouble">a</span>/кг</p>
+												<p class="new-value">2 300</p>
+												<p class="old-value">2 300</p>
+											</div>
+										</div>
+										<div class="product-addition">
+											<p class="description">Собран в горном алтае. Имеется примесь воска. Сертификат пришлю вместе с медом</p>
+											<p class="preorder">по предзаказу</p>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+
+							<div class="price-category">
+								<p class="category-name">Мед</p>
+								<p class="category-number">5</p>
+							</div>
+							<div class="category-container">
+								<div class="price-product">
+									<div class="product-img">
+										<img src="img/avatar.png" alt="product img">
+										<div class="bookmark"></div>
+									</div>
+									<div class="product-content">
+										<div class="product-head">
+											<p class="product-name">Мед гречишный</p>
+											<p class="product-date">июнь 16</p>
+											<div class="product-value">
+												<p class="measurement"><span class="rouble">a</span>/кг</p>
+												<p class="new-value">2 300</p>
+												<p class="old-value">2 300</p>
+											</div>
+										</div>
+										<div class="product-addition">
+											<p class="description">Собран в горном алтае. Имеется примесь воска. Сертификат пришлю вместе с медом</p>
+											<p class="preorder">по предзаказу</p>
+										</div>
+									</div>
+									
+								</div>
+								<div class="price-product">
+									<div class="product-img">
+										<img src="img/avatar.png" alt="product img">
+										<div class="bookmark"></div>
+									</div>
+									<div class="product-content">
+										<div class="product-head">
+											<p class="product-name">Мед гречишный</p>
+											<p class="product-date">июнь 16</p>
+											<div class="product-value">
+												<p class="measurement"><span class="rouble">a</span>/кг</p>
+												<p class="new-value">2 300</p>
+												<p class="old-value">2 300</p>
+											</div>
+										</div>
+										<div class="product-addition">
+											<p class="description">Собран в горном алтае. Имеется примесь воска. Сертификат пришлю вместе с медом</p>
+											<p class="preorder">по предзаказу</p>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="megachat">
+					
+					<div class="bookmark-switch">
+						<input type="button" class="bookmark-contacts" value="Контакты">
+						<input type="button" class="bookmark-megachat active" value="Мегачат">
+					</div>
+					<p class="online-name">На связи менеджер Иванов Игорь Иванович</p>
+					<div class="selection">
+						<input type="button" class="inbox active" value="Входящие">
+						<input type="button" class="outbox" value="Исходящие">
+						<input type="button" class="docs" value="Только документы">
+					</div>
+					<div class="inblock-chat">
+						<div class="talk">
+							<p class="message my-message">Здравствуйте. Хотел бы купить у вас меда. Сможете отправить на этой неделе  <span>13.07.16</span></p>
+							<p class="message you-message">Здравствуйте. Хотел бы купить у вас меда. Сможете отправить на этой неделе <span>13.07.16</span></p>
+							<p class="message my-message"><a href="#" class="order-doc">Продавец выставил счёт на 370 000 руб.</a><span>13.07.16</span></p>
+							<p class="message you-message">Здравствуйте. Хотел бы купить у вас меда. Сможете отправить на этой неделе <span>13.07.16</span></p>
+							<p class="message my-message">Здравствуйте. Хотел бы купить у вас меда. Сможете отправить на этой неделе <span>13.07.16</span></p>
+							<p class="message you-message">Здравствуйте. Хотел бы купить у вас меда. Сможете отправить на этой неделе <span>13.07.16</span></p>
+							<p class="message my-message">Здравствуйте. Хотел бы купить у вас меда. Сможете отправить на этой неделе  <span>13.07.16</span></p>
+							<p class="message you-message">Здравствуйте. Хотел бы купить у вас меда. Сможете отправить на этой неделе <span>13.07.16</span></p>
+							<p class="message my-message"><a href="#" class="order-doc">Продавец выставил счёт на 370 000 руб.</a><span>13.07.16</span></p>
+							<p class="message you-message">Здравствуйте. Хотел бы купить у вас меда. Сможете отправить на этой неделе <span>13.07.16</span></p>
+							<p class="message my-message">Здравствуйте. Хотел бы купить у вас меда. Сможете отправить на этой неделе <span>13.07.16</span></p>
+							<p class="message you-message">Здравствуйте. Хотел бы купить у вас меда. Сможете отправить на этой неделе <span>13.07.16</span></p>
+						</div>
+					</div>
+					<p class="order-complete">Отметить получение заказа</p>
+					<div class="input-text">
+						<form action="#" method="POST">
+							<textarea class="text"></textarea>
+							<input type="submit" class="submit" value="">
+						</form>
+					</div>
+				</div>
+
+				<div class="contacts">
+					<div class="bookmark-switch">
+						<input type="button" class="bookmark-contacts active" value="Контакты">
+						<input type="button" class="bookmark-megachat" value="Мегачат">
+					</div>
+					<p class="online-name">На связи менеджер Иванов Игорь Иванович</p>
+
+					<div class="phone">
+						<input type="button" class="number" value="+ 7 919 255-XX-XX">
+						<input type="text" class="number number-hide" value="+ 7 919 255-18-44">
+						<a href="#" class="comment">Комментарий по номеру</a>
+					</div>
+					<div class="phone">
+						<input type="button" class="number" value="+ 7 919 255-XX-XX">
+						<input type="text" class="number number-hide" value="+ 7 919 255-18-44">
+						<a href="#" class="whatsapp"><img src="img/whatsapp.png" alt="whatsapp"> Whats App</a>
+						<a href="#" class="viber"><img src="img/viber.png" alt="viber"> Viber</a>
+					</div>
+					<div class="other">
+						<a href="mailto:ivanov@mail.ru" class="email">ivanov@mail.ru</a>
+						<p class="skype"><img src="img/skype.png" alt="skype"> ivanov9887</p>
+						<a href="#" class="site">ivanovgeorgii.ru</a>
+					</div>
+					<div class="time">
+						<p class="hours">сегодня: <span>9:00 - 15:00</span></p>
+						<p class="hours">обед: <span>9:00 - 15:00</span></p>
+					</div>
+					<div class="chart">
+						<div class="plot">
+							<p class="day">Пн.-Пт.</p>
+							<p class="hours">8:00 - 24:00</p>
+							<p class="addition">обед: <span>8:00 - 24:00</span></p>
+						</div>
+						<div class="plot">
+							<p class="day">Пн.-Пт.</p>
+							<p class="hours">8:00 - 24:00</p>
+							<p class="addition">обед: <span>8:00 - 24:00</span></p>
+						</div>
+						<div class="plot">
+							<p class="day exit">Пн.-Пт.</p>
+							<p class="hours">8:00 - 24:00</p>
+							<p class="addition">обед: <span>8:00 - 24:00</span></p>
+						</div>
+					</div>
+					<p class="delivery">Груз доставит до ТК. ФПП НИИ МосГорСуд.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="shadow"></div>
+
+<div class="doc-view">
+	<p class="close"></p>
+	<p class="text">Договор о куплепродаже меда на сумму в 1 000 000 руб. Заключен с поставщиком Федором Емельяненко. Организована перевозка в Бангладеш до 18 ноября 2048 года.</p>
+	<p class="text">Договор о куплепродаже меда на сумму в 1 000 000 руб.</p>
+	<p class="text">Договор о куплепродаже меда на сумму в 1 000 000 руб.</p>
+	<p class="text">Договор о куплепродаже меда на сумму в 1 000 000 руб. Договор о куплепродаже меда на сумму в 1 000 000 руб. Заключен с поставщиком Федором Емельяненко. Организована перевозка в Бангладеш до 18 ноября 2048 года.</p>
+	<p class="text">Договор о куплепродаже меда на сумму в 1 000 000 руб.</p>
+	<p class="text">Договор о куплепродаже меда на сумму в 1 000 000 руб.</p>
+</div>
+
+<div class="popup-plus popup-plus-meda">
+	<p class="close"></p>
+
+	<input type="text" class="search" placeholder="Россия">
+	<input type="button" class="save" value="Сохранить">
+
+	<ul class="popup-list">
+		<li>Мед 1</li>
+		<li>Мед 2</li>
+		<li>Мед 3</li>
+		<li>Мед 4</li>
+		<li>Мед 5</li>
+		<li>Мед 6</li>
+		<li>Мед 7</li>
+		<li>Мед 8</li>
+		<li>Мед 9</li>
+		<li>Мед 10</li>
+
+		<li>Мед 1</li>
+		<li>Мед 2</li>
+		<li>Мед 3</li>
+		<li>Мед 4</li>
+		<li>Мед 5</li>
+		<li>Мед 6</li>
+		<li>Мед 7</li>
+		<li>Мед 8</li>
+		<li>Мед 9</li>
+		<li>Мед 10</li>
+
+		<li>Мед 1</li>
+		<li>Мед 2</li>
+		<li>Мед 3</li>
+		<li>Мед 4</li>
+		<li>Мед 5</li>
+		<li>Мед 6</li>
+		<li>Мед 7</li>
+		<li>Мед 8</li>
+		<li>Мед 9</li>
+		<li>Мед 10</li>
+	</ul>
+</div>
+
+<div class="popup-plus popup-plus-bee">
+	<p class="close"></p>
+
+	<input type="text" class="search" placeholder="Россия">
+	<input type="button" class="save" value="Сохранить">
+
+	<ul class="popup-list">
+		<li>Мед 1</li>
+		<li>Мед 2</li>
+		<li>Мед 3</li>
+		<li>Мед 4</li>
+		<li>Мед 5</li>
+		<li>Мед 6</li>
+		<li>Мед 7</li>
+		<li>Мед 8</li>
+		<li>Мед 9</li>
+		<li>Мед 10</li>
+
+		<li>Мед 1</li>
+		<li>Мед 2</li>
+		<li>Мед 3</li>
+		<li>Мед 4</li>
+		<li>Мед 5</li>
+		<li>Мед 6</li>
+		<li>Мед 7</li>
+		<li>Мед 8</li>
+		<li>Мед 9</li>
+		<li>Мед 10</li>
+
+		<li>Мед 1</li>
+		<li>Мед 2</li>
+		<li>Мед 3</li>
+		<li>Мед 4</li>
+		<li>Мед 5</li>
+		<li>Мед 6</li>
+		<li>Мед 7</li>
+		<li>Мед 8</li>
+		<li>Мед 9</li>
+		<li>Мед 10</li>
+	</ul>
+</div>
+
+<div class="popup-plus popup-plus-other">
+	<p class="close"></p>
+
+	<input type="text" class="search" placeholder="Россия">
+	<input type="button" class="save" value="Сохранить">
+
+	<ul class="popup-list">
+		<li>Мед 1</li>
+		<li>Мед 2</li>
+		<li>Мед 3</li>
+		<li>Мед 4</li>
+		<li>Мед 5</li>
+		<li>Мед 6</li>
+		<li>Мед 7</li>
+		<li>Мед 8</li>
+		<li>Мед 9</li>
+		<li>Мед 10</li>
+
+		<li>Мед 1</li>
+		<li>Мед 2</li>
+		<li>Мед 3</li>
+		<li>Мед 4</li>
+		<li>Мед 5</li>
+		<li>Мед 6</li>
+		<li>Мед 7</li>
+		<li>Мед 8</li>
+		<li>Мед 9</li>
+		<li>Мед 10</li>
+
+		<li>Мед 1</li>
+		<li>Мед 2</li>
+		<li>Мед 3</li>
+		<li>Мед 4</li>
+		<li>Мед 5</li>
+		<li>Мед 6</li>
+		<li>Мед 7</li>
+		<li>Мед 8</li>
+		<li>Мед 9</li>
+		<li>Мед 10</li>
+	</ul>
+</div>
+
+<div class="popup-plus popup-plus-region">
+	<p class="close"></p>
+
+	<input type="text" class="search" placeholder="Россия">
+	<input type="button" class="save" value="Сохранить">
+
+	<ul class="popup-list">
+		<li>Мед 1</li>
+		<li>Мед 2</li>
+		<li>Мед 3</li>
+		<li>Мед 4</li>
+		<li>Мед 5</li>
+		<li>Мед 6</li>
+		<li>Мед 7</li>
+		<li>Мед 8</li>
+		<li>Мед 9</li>
+		<li>Мед 10</li>
+
+		<li>Мед 1</li>
+		<li>Мед 2</li>
+		<li>Мед 3</li>
+		<li>Мед 4</li>
+		<li>Мед 5</li>
+		<li>Мед 6</li>
+		<li>Мед 7</li>
+		<li>Мед 8</li>
+		<li>Мед 9</li>
+		<li>Мед 10</li>
+
+		<li>Мед 1</li>
+		<li>Мед 2</li>
+		<li>Мед 3</li>
+		<li>Мед 4</li>
+		<li>Мед 5</li>
+		<li>Мед 6</li>
+		<li>Мед 7</li>
+		<li>Мед 8</li>
+		<li>Мед 9</li>
+		<li>Мед 10</li>
+	</ul>
+</div>
+
+<script src="js/less.min.js"></script>
+<script src="js/jquery-1.12.2.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/jquery.nicescroll.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
